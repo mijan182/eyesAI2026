@@ -1,0 +1,12 @@
+
+
+
+
+ok PLAN
+
+main.py -> where the modules are called
+EYES2026.py -> teaching file
+goldfingers.py -> where they are typing out the modules that they are
+finding around in brown envelopes with different challenge cards to TEST them
+
+culprit is one of the instructors
