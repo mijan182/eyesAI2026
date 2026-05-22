@@ -2,4 +2,7 @@ import EYESextra
 
 ##ascii art
 
-EYESextra.catArt()
+EYESextra.dog()
+EYESextra.bark()
+
+if
