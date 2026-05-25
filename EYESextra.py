@@ -22,7 +22,7 @@ def clueans1(x):
     if x == 4:
         s = "Alright.... you may have foiled one of my defenses.... \nbut you will never be able to find the next clue!\nNot even in the BLUE box!\n\n\t- Secret Hacker\n\n"
 
-        for c in w:
+        for c in s:
             sys.stdout.write(c)
             sys.stdout.flush()
             time.sleep(0.05)
