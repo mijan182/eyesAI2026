@@ -46,7 +46,7 @@ def clueans3(): #green
         time.sleep(0.05)
 
 def clueans4(): #yellow!
-    s = "\n\n\t- Secret Hacker\n\n"
+    s = "why.... why WHY WHYYYYYYY!!! you can't be SERIOUS!!!\nI've spent HOURS covering my tracks with AI and you're this close already!!!!!\nI swear this will be easier for me to escape\n.... as long as you don't acquire the\n YELLOW envelope...!\n\n\t- Secret Hacker\n\n"
 
     for c in s:
         sys.stdout.write(c)
@@ -54,7 +54,7 @@ def clueans4(): #yellow!
         time.sleep(0.05)
 
 def finalAnswer():
-    s = "YOU'VE caught me! I CAN'T BELIEVE IT!!!!\n\n\t- Secret Hacker\n\n"
+    s = "You've RUINED me! I CAN'T BELIEVE IT!!!! you've fixed it ALL!\nnow you've caught me AND I HAVE NO WHERE TO GO!!!\n\t- Secret Hacker\n\n"
 
     for c in s:
         sys.stdout.write(c)
