@@ -2,7 +2,10 @@ import EYESextra
 
 ##ascii art
 
-EYESextra.dog()
-EYESextra.bark()
+# EYESextra.dog()
+# print("\n bark bark")
+# EYESextra.bark()
 
-if
+# EYESextra.cat()
+# print("\n meow meow meow")
+# EYESextra.meow()
