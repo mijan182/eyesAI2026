@@ -17,6 +17,6 @@ import EYESextra
 # goldfinger.clue1()
 # goldfinger.clue2()
 # goldfinger.clue3()
-# goldfinger.clue4()
+goldfinger.clue4()
 
-EYESextra.clueans4()
+# EYESextra.clueans4()

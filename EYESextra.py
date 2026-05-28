@@ -1,7 +1,10 @@
 import time
 import sys
 
+#file for super secret codes
+#and well all the things they need to do stuff like defs and clue answers!!!
 secret_color = "blue"
+
 
 def bark():
     print("\n bark bark! woof!")
