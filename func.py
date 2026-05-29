@@ -66,16 +66,21 @@ def clueans3():  # green
         sys.stdout.flush()
         time.sleep(0.05)
 
-
 def clueans4():  # yellow!
-    s = "why.... why WHY WHYYYYYYY!!! you can't be SERIOUS!!!\nI've spent HOURS covering my tracks with AI and you're this close already!!!!!\nI swear this will be easier for me to escape\n.... as long as you don't acquire the\n YELLOW envelope...!\n\n\t- Secret Hacker\n\n"
+    s = "why.... why WHY WHYYYYYYY!!! you can't be SERIOUS!!!\nI've spent HOURS covering my tracks with AI and you're this close already!!!\n\n I'm sure I didn't leave anything out this time....\n\t- Secret Hacker\n\n\n\nenter: func.finalclue()"
 
     for c in s:
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(0.05)
 
-
+def finalclue():
+    userinp = input("What coding language are we using right now?:\n")
+    if userinp.lower() == "python":
+        finalAnswer()
+    else:
+        print("run this clue one more time to try again!")
+        
 def finalAnswer():
     s = "You've RUINED me! I CAN'T BELIEVE IT!!!! you've fixed it ALL!\nnow you've caught me AND I HAVE NO WHERE TO GO!!!\nbut... you can't find me...\n\n definitely not the person in the cloak!!!!!\t- Secret Hacker\n\n"
 
