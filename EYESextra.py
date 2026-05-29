@@ -27,7 +27,7 @@ def dog():
     )
 
 
-def secret():
+def nothing():
     s = "muhahahahaha! i have infiltrated youR code and messed it all up!\nyour efforts have beEn deemed fruitless and your code is now ruined! \nyou can't catch me because i useD ai to cover up my tracks!\n you will never track me!\n\n\t- Secret Hacker\n\n"
     # clue 1 put in here
 
