@@ -77,7 +77,7 @@ def clueans4():  # yellow!
 
 
 def finalAnswer():
-    s = "You've RUINED me! I CAN'T BELIEVE IT!!!! you've fixed it ALL!\nnow you've caught me AND I HAVE NO WHERE TO GO!!!\n\t- Secret Hacker\n\n"
+    s = "You've RUINED me! I CAN'T BELIEVE IT!!!! you've fixed it ALL!\nnow you've caught me AND I HAVE NO WHERE TO GO!!!\nbut... you can't find me...\n\n definitely not the person in the cloak!!!!!\t- Secret Hacker\n\n"
 
     for c in s:
         sys.stdout.write(c)
