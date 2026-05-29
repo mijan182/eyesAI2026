@@ -1,8 +1,6 @@
 import time
 import sys
 
-#file for super secret codes
-#and well all the things they need to do stuff like defs and clue answers!!!
 secret_color = "blue"
 
 
@@ -10,15 +8,33 @@ def bark():
     print("\n bark bark! woof!")
     x = 1
 
+
 def meow():
     print("\n meow!!!")
     x = 2
 
+
 def cat():
-    print("\n |\---/|\n   | ,_, |\n    \_`_/-..----.\n ___/ `   ' ,""+ \  \n(__...'   __\    |`.___.';\n  (_,...'(_,.`__)/'.....+")
+    print(
+        "\n   |\---/|\n   | ,_, |\n    \_`_/-..----.\n ___/ `   ' ,"
+        "+ \  \n(__...'   __\    |`.___.';\n  (_,...'(_,.`__)/'.....+"
+    )
+
 
 def dog():
-    print("\n       __\n        /  \ \n       / ..|\ \n      (_\  |_) \n      /  \@' \n     /     \ \n_   /  `   | \n\ \/ \  | _\ \n \   /_ || \ \_ \n  \____)|_) \_) \n")
+    print(
+        "\n       __\n        /  \ \n       / ..|\ \n      (_\  |_) \n      /  \@' \n     /     \ \n_   /  `   | \n\ \/ \  | _\ \n \   /_ || \ \_ \n  \____)|_) \_) \n"
+    )
+
+
+def secret():
+    s = "muhahahahaha! i have infiltrated youR code and messed it all up!\nyour efforts have beEn deemed fruitless and your code is now ruined! \nyou can't catch me because i useD ai to cover up my tracks!\n you will never track me!\n\n\t- Secret Hacker\n\n"
+    # clue 1 put in here
+
+    for c in s:
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(0.05)
 
 
 def clueans1(x):
@@ -32,6 +48,7 @@ def clueans1(x):
     else:
         print("try again!")
 
+
 def clueans2():
     s = "I thought you all have not learn about python yet...\nI thought you wouldn't be able to catch me...!\n\n... maybe if I wore my lucky PINK shirt...\nTHEN YOU WON'T BE ABLE TO CATCH ME!! MUHAHAHAHAHA\n\n\t- Secret Hacker\n\n"
 
@@ -40,7 +57,8 @@ def clueans2():
         sys.stdout.flush()
         time.sleep(0.05)
 
-def clueans3(): #green
+
+def clueans3():  # green
     s = "HOW COULD YOU SOLVE THAT ONE!?!? THAT CAN'T BE!\n it was supposed to be HARD!!!! well...\n\nAtleast my fedora wasn't stained GREEN from the grass out in the GREENS\n\nthat would be very... very bad...\n\n\t- Secret Hacker\n\n"
 
     for c in s:
@@ -48,13 +66,15 @@ def clueans3(): #green
         sys.stdout.flush()
         time.sleep(0.05)
 
-def clueans4(): #yellow!
+
+def clueans4():  # yellow!
     s = "why.... why WHY WHYYYYYYY!!! you can't be SERIOUS!!!\nI've spent HOURS covering my tracks with AI and you're this close already!!!!!\nI swear this will be easier for me to escape\n.... as long as you don't acquire the\n YELLOW envelope...!\n\n\t- Secret Hacker\n\n"
 
     for c in s:
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(0.05)
+
 
 def finalAnswer():
     s = "You've RUINED me! I CAN'T BELIEVE IT!!!! you've fixed it ALL!\nnow you've caught me AND I HAVE NO WHERE TO GO!!!\n\t- Secret Hacker\n\n"
@@ -63,5 +83,3 @@ def finalAnswer():
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(0.05)
-
-

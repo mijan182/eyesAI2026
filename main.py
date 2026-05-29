@@ -1,22 +1,27 @@
-#this is the main file where everything is called in!
+# this is the main file where everything is called in!
 
 import EYES2026
 import goldfinger
-import time
-import sys
 import EYESextra
 
-# s = "muhahahahaha! i have infiltrated youR code and messed it all up!\nyour efforts have beEn deemed fruitless and your code is now ruined! \nyou can't catch me because i useD ai to cover up my tracks!\n you will never track me!\n\n\t- Secret Hacker\n\n"
-# # clue 1 put in here
 
-# for c in s:
-#     sys.stdout.write(c)
-#     sys.stdout.flush()
-#     time.sleep(0.05)
+def clue1():
+  print("How many letters are in EYES?")
+  x = int(input())
+  EYESextra.clueans1(x)
 
-# goldfinger.clue1()
-# goldfinger.clue2()
-# goldfinger.clue3()
-goldfinger.clue4()
+def clue2():
 
-# EYESextra.clueans4()
+  print("What color is the box?")
+  y = str(input())
+  
+  if y == EYESextra.secret_color:
+      EYESextra.clueans2()
+  else:
+      print("WRONG! Try again!")
+
+
+
+
+clue2()
+  
