@@ -1,0 +1,10 @@
+
+
+def clue2():
+    print("What color is the box?")
+    y = str(input())
+
+    if y == func.secret_color
+    func.clueans2()
+    else
+    print("WRONG! Try again!")

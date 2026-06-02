@@ -1,0 +1,27 @@
+1.
+
+print("Hello World")
+
+
+
+2. 
+
+x = 2
+if x == 2:
+    print("good!")
+else:
+    print("bad!")
+
+
+3.
+
+x = 2 + 3 * 4 / 5
+print(x)
+
+4.
+
+
+func.cat()
+func.meow()
+func.dog()
+func.bark()
