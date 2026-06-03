@@ -1,0 +1,4 @@
+def clue1():
+    print(How many letters are in EYES?)
+    x = int(input)
+    func.clueans1(x)
