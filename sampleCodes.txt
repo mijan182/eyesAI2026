@@ -15,7 +15,8 @@ else:
 
 3.
 
-x = 2 + 3 * 4 / 5
+#try to fix this!
+x = (2 + 3) * 4 / 5
 print(x)
 
 4.

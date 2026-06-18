@@ -39,7 +39,7 @@ def nothing():
 
 def clueans1(x):
     if x == 4:
-        s = "Alright.... you may have foiled one of my defenses.... \nbut you will never be able to find the next clue!\nNot even in the BLUE box!\n\n\t- Secret Hacker\n\n"
+        s = "Alright.... you may have foiled one of my defenses.... \nbut you will never be able to find the next clue!\nNot even in the BLUE ENVELOPE!\n\n\t- Secret Hacker\n\n"
 
         for c in s:
             sys.stdout.write(c)
@@ -50,7 +50,7 @@ def clueans1(x):
 
 
 def clueans2():
-    s = "I thought you all have not learn about python yet...\nI thought you wouldn't be able to catch me...!\n\n... maybe if I brought my lucky GREEN box with my lucky coins...\nTHEN YOU WON'T BE ABLE TO CATCH ME!! MUHAHAHAHAHA\n\n\t- Secret Hacker\n\n"
+    s = "I thought you all have not learn about python yet...\nI thought you wouldn't be able to catch me...!\n\n... maybe if I brought my lucky GREEN envelope with me with all my secrets.....\nTHEN YOU WON'T BE ABLE TO CATCH ME!! MUHAHAHAHAHA\n\n\t- Secret Hacker\n\n"
 
     for c in s:
         sys.stdout.write(c)
@@ -59,7 +59,7 @@ def clueans2():
 
 
 def clueans3():  # green
-    s = "HOW COULD YOU SOLVE THAT ONE!?!? THAT CAN'T BE!\n it was supposed to be HARD!!!! well...\n\nAtleast my fedora wasn't stained GREEN from the grass out in the GREENS\n\nthat would be very... very bad...\n\n\t- Secret Hacker\n\n"
+    s = "HOW COULD YOU SOLVE THAT ONE!?!? THAT CAN'T BE!\n it was supposed to be HARD!!!! well...\n\nAtleast my fedora wasn't colored YELLOW....\nthat would be very... very bad...\n\n\t- Secret Hacker\n\n"
 
     for c in s:
         sys.stdout.write(c)
