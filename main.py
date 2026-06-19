@@ -10,6 +10,3 @@ import func
 #add methods here!
 
 # call methods here!
-
-x = (2 + 3) * 4 / 5
-print(x)
