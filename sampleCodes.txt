@@ -1,28 +1,21 @@
-1.
+#FIRST PART! (REMOVE HASTAGS TO RUN)
+#print("Hello World")
+ 
 
-print("Hello World")
-
-
-
-2. 
-
-x = 2
-if x == 2:
-    print("good!")
-else:
-    print("bad!")
+#SECOND PART (REMOVE HASHTAGS TO RUN)
+#x = 2
+#if x == 2:
+#    print("good!")
+#else:
+#    print("bad!")
 
 
-3.
+#THIRD PART (REMOVE HASHTAGS TO RUN)
+#x = (2 + 3) * 4 / 5
+#print(x)
 
-#try to fix this!
-x = (2 + 3) * 4 / 5
-print(x)
-
-4.
-
-
-func.cat()
-func.meow()
-func.dog()
-func.bark()
+#FOURTH PART (REMOVE HASHTAGS)
+#func.cat()
+#func.meow()
+#func.dog()
+#func.bark()
